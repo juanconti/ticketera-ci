@@ -15,7 +15,7 @@ Cada ticket tiene que estar asignado a un Abonado, que debe crearse previamente 
  Debe configurarse la dirección root que tendrá el proyecto en el archivo de configuración de Codeigniter './application/config/config.php' e indicarse en el índice 'base_url' en la variable config, remplazando 'localhost'.
 
 ```
-$config['base_url'] = //Indicar url root aquí//;
+$config['base_url'] = *Indicar url root aquí*;
 ```
 
 Luego debe configurarse la codeigniter para que se comunique con su base de datos. Esto debe hacerse en el archivo './application/config/database.php' y remplazar los datos pertinentes con los de su base de datos.
@@ -26,7 +26,7 @@ Por último, debe crear la base de datos necesaria para correr la aplicación. E
 
 	* PHP 5.6
 	* mySql(MariaDB) - Base de datos
-	* [Codeigniter 3.1](https://codeigniter.com/) - Framework de php
-	* [jQuery](https://jquery.com/) - Librería de javaScript
-	* [Boostrap 4.0](http://getbootstrap.com/) - Librería de Frontend
-	* [Font Awesome](https://fontawesome.com/) - Librería de iconos
+	* [Codeigniter 3.1](https://codeigniter.com) - Framework de php
+	* [jQuery](https://jquery.com) - Librería de javaScript
+	* [Boostrap 4.0](http://getbootstrap.com) - Librería de Frontend
+	* [Font Awesome](https://fontawesome.com) - Librería de iconos
