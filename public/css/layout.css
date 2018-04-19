@@ -1,0 +1,32 @@
+html, body {
+  min-height: 100%;
+}
+
+.perfil-dropdown {
+  text-transform: capitalize;
+}
+
+  .icon-user {
+    position: relative;
+    font-size: 1.3em;
+    top: 0.1em;
+    color: #2196F3;
+    padding: 0 .5em;
+  }
+
+  .icon-user.admin {
+    color: #F44336;
+  }
+
+
+.container-fluid.main-container {
+  min-height: 90vh;
+  margin-top: 5vh;
+  padding: 2.5vh 3vh;
+}
+
+footer {
+  background-color: green;
+  height: 5vh;
+  background-color: #F8F8F8;
+}

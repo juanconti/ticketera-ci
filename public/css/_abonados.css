@@ -1,0 +1,90 @@
+.form-busqueda{
+	padding-bottom: 1rem;
+}
+
+.col-busqueda-serchbar{
+	background-color: rgba(255, 255, 255, 0.5);
+	z-index: 1;
+}
+.col-busqueda-filtros{
+	overflow: hidden;
+}
+
+.placeholder{
+	transition: opacity .4s ease-out;
+	opacity: 1;
+	position: absolute;
+	left: 50%;
+	top: 3rem;
+	transform: translate(-50%, 0);
+
+
+	white-space: nowrap;
+	font-size: 2rem;
+	font-weight: 600;
+	color: rgba(0, 0, 0, .5);
+}
+
+.placeholder.error{
+	color: rgb(244, 67, 54);
+}
+
+.placeholder.escondido{
+	opacity: 0;
+}
+
+#buscador_query[type="search"]{
+	position: relative;
+	width: 50%;
+	left: 50%;
+	margin-left: -25%;
+	text-align: center;
+	transition: all .75s ease-in-out;
+}
+
+.form-busqueda:hover #buscador_query[type="search"],
+#buscador_query[type="search"]:focus{
+	width: 100%;
+	margin-left: -50%;
+	left: 50%;
+}
+
+#buscador_query[type="search"]:focus::-webkit-input-placeholder{
+	transition: all .5s ease-out;
+	color: transparent;
+}
+
+.busqueda-filtro{
+	vertical-align: baseline;
+	position: relative;
+	top: -100%;
+	opacity: 0;
+	transition: opacity .25s ease-out,
+                    transform .75s ease-out;
+}
+
+.form-busqueda:hover .busqueda-filtro,
+.busqueda-filtro.desplegado{
+	opacity: 1;
+	transform: translate(0, 100%);
+}
+
+.item-filtro{
+	display: inline-block;
+	color: grey;
+	padding: 1rem 1rem 0;
+}
+
+.col-busqueda-filtros button{
+	display: inline-block;
+	right: 0;
+}
+
+button.escondido{
+	display: none;
+}
+
+table .opciones a,
+table .opciones button{
+	margin: 0 .5rem;
+}

@@ -1,0 +1,46 @@
+@media screen and (max-width: 992px) {
+	body,
+	html {
+		font-size: 20px!important;
+	}
+}
+
+body,
+html {
+	height: 100%;
+	box-sizing: border-box;
+}
+
+.container-fluid {
+	box-sizing: border-box;
+	background: linear-gradient(to bottom right, #3D5AFE, #FF1744);
+	height: 100%;
+}
+
+.alert-error-msj {
+	position: absolute !important;
+	padding-top: 5%;
+}
+
+	.alert.alert-danger {
+		width: 100%;
+		text-align: center;
+	}
+
+.login-container {
+	padding: 2.5rem;
+	background-color: white;
+}
+
+.login-header hr{
+	margin: 1.5rem 0;
+}
+
+.input-username,
+.input-password {
+	padding-bottom: 5%;
+}
+
+.btn-submit {
+	padding: 5% 0;
+}

@@ -1,0 +1,101 @@
+h3{
+	color: #757575;
+}
+
+.panel-item{
+	padding-bottom: 2rem;
+}
+.panel-item .row{
+	padding-bottom: .5rem;
+}
+
+
+.list-sectores a.edit-sector.list-group-item-light{
+	color: #818182;
+}
+
+.list-sectores #btn_alta_sector{
+	text-align: center;
+}
+
+.card .card-header{
+	font-weight: 600;
+}
+
+.card .card-body{
+	background-color: #EEEEEE;
+}
+
+.card.sectores-abm .card-header{
+	background-color: #28a745;
+	color: white;
+}
+
+.card.bitacora-busquedatk .card-header{
+	color: white;
+	background-color: #007bff;
+}
+
+.card.edita-perfil .card-header{
+	color: white;
+	background-color: #17a2b8;
+}
+
+/* Panel visualizacion de Bitacora*/
+#form_bitacora_buscatk .form-item{
+	padding-bottom: 2rem;
+}
+
+/* Panel edicion de usuarios*/
+.card.edita-perfil .card-body{
+	min-height: 15rem;
+}
+
+#tabla_resultados_usuarios{
+	display: none;
+	padding: .5rem 1rem;
+}
+
+.result-header{
+	transition: background-color 300ms ease-out;
+	padding-bottom: .25rem;
+	padding-top: .25rem;
+	background-color: rgb(189, 189, 189);
+}
+
+.result-item{
+	transition: background-color 300ms ease-out;;
+	padding-bottom: .25rem;
+	padding-top: .25rem;
+	background-color: rgb(224, 224, 224);
+	border-top: solid 1px #9E9E9E;
+}
+
+.result-item:hover{
+	background-color: rgba(224, 224, 224, .3);
+}
+
+	.usuario-username,
+	.usuario-sector{
+		text-transform: capitalize;
+	}
+
+	.usuario-sector{
+		text-align: center;
+		color: grey;
+	}
+
+	.usuario-opciones button{
+		margin-right: 5%;
+	}
+
+
+/* Modal de edición de perfil de usuario */
+#perfil_username{
+	text-transform: capitalize;
+}
+
+.perfil-submit-row{
+	padding-top: 1.5rem;
+	text-align: right;
+}

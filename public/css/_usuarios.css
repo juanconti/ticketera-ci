@@ -1,0 +1,112 @@
+/* Visualización de usuarios */
+a.baja-usuario i{
+	color: #dc3545;
+}
+
+a.baja-usuario:hover i{
+	color: white;
+}
+
+a.activa-usuario i{
+	color: #ffc107;
+}
+
+a.activa-usuario:hover i{
+	color: white;
+}
+
+a.activa-usuario.escondido{
+	display: none;
+}
+
+a.baja-usuario.escondido{
+	display: none;
+}
+
+/* Filtros de visualización de usuarios*/
+.row.filtros{
+	padding: 2rem 0;
+}
+
+.item-filtro{
+	display: inline-block;
+	padding: 0 2rem;
+}
+
+/* Tabla de visualización de usuarios */
+#tablaUsuario tr.usuario-inactivo td{
+	color: rgb(189, 189, 189);
+}
+
+#tablaUsuario tr.usuario-inactivo:hover{
+	background-color: #E0E0E0;
+}
+
+#tablaUsuario tr.usuario-inactivo:hover td{
+	color: #616161;
+}
+
+.placeholder.error{
+	transition: opacity .4s ease-out;
+	opacity: 1;
+	position: absolute;
+	left: 50%;
+	top: 3rem;
+	transform: translate(-50%, 0);
+
+	font-size: 2rem;
+	font-weight: 600;
+	color: rgb(244, 67, 54);
+}
+
+.placeholder.escondido{
+	opacity: 0;
+}
+
+/* Modal para Pefil público */
+#modal_perfil .modal-body{
+	padding: 2.5% 2.5% 10%;
+}
+
+.perfil-icon-placeholder{
+	text-align: center;
+}
+
+.perfil-header-icono p{
+	display: inline-block;
+	padding-bottom: .5rem;
+	margin: 0;
+	font-weight: bold;
+	color: rgba(0, 0, 0, .2);
+}
+
+.perfil-header-icono #perfil_id{
+	padding-right: 0.5rem;
+}
+
+.perfil-header-icono #perfil_username{
+	display: inline-block;
+	color: rgba(40, 53, 147, .5);
+	padding: .5rem 0;
+	text-transform: uppercase;
+}
+
+.perfil-icon-placeholder i{
+	display: block;
+	padding: .5rem 0 1.25rem;
+	color: rgba(0, 0, 0, .75);
+	font-size: 6rem;
+}
+
+.perfil-icon-placeholder i.deshabilitado{
+	color: rgba(0, 0, 0, .25);
+}
+
+.pefil-info label{
+	color: grey;
+	font-weight: 600;
+}
+
+.pefil-info .row{
+	padding-bottom: 1.5rem;
+}

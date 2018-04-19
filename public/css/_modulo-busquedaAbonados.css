@@ -1,0 +1,30 @@
+.abonado-form-busqueda{
+	position: relative;
+}
+
+#buscador_abonado {
+	transition: opacity 0.4s;
+	width: 100%;
+	z-index: 0;
+}
+
+#select_abonado_wrapper {
+	transition: opacity 0.4s;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+#abonado_seleccionado {
+	transition: opacity 0.4s;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+#abonado_seleccionado.escondido,
+#select_abonado_wrapper.escondido,
+#buscador_abonado.escondido {
+	opacity: 0;
+	visibility: hidden;
+}

@@ -1,0 +1,66 @@
+.header-titulo {
+  padding: 1.5em 0 2em;
+  text-shadow: rgba(100, 100, 100, .2) 0.1em 0.15em 0.1rem;
+}
+
+.form-submit{
+  padding-top: 3em;
+}
+
+.only-button{
+	padding: 0;
+	text-align:center !important;
+}
+
+/* Formularios de Alta de Entidades*/
+.card.form-alta {
+	background-color: #EEEEEE;
+}
+
+.card.form-alta .card-body {
+	padding: 2em 2.5em;
+}
+
+.form-alta .form-row {
+	padding-bottom: 1rem;
+}
+
+.card.form-alta .form-footer {
+	padding-top: 2rem;
+	padding-bottom: 0;
+}
+
+.card.form-alta strong {
+	color: red;
+	padding-left: .25em;
+}
+
+.card.form-alta .form-check {
+	color:#F44336;
+	text-align: center;
+}
+
+#checkbox_estado:checked + label {
+	color: #4CAF50;
+}
+
+.card.form-alta .form-check-label.escondido {
+	display: none;
+}
+
+/* Validacion de Formularios de alta de Entidades*/
+
+.row.errores.oculto{
+	display:none;
+}
+
+/* Se arreglan los botones que sean a tags con btn outline*/
+a.btn-outline-primary{
+    color: #007bff;
+}
+a.btn-outline-warning{
+    color: #ffc107;
+}
+a.btn-outline-success{
+    color: #28a745;
+}
