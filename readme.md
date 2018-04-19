@@ -24,9 +24,9 @@ Por último, debe crear la base de datos necesaria para correr la aplicación. E
 
 ### Construido Utilizando
 
-	* PHP 5.6
-	* mySql(MariaDB) - Base de datos
-	* [Codeigniter 3.1](https://codeigniter.com) - Framework de php
-	* [jQuery](https://jquery.com) - Librería de javaScript
-	* [Boostrap 4.0](http://getbootstrap.com) - Librería de Frontend
-	* [Font Awesome](https://fontawesome.com) - Librería de iconos
+* PHP 5.6
+* mySql(MariaDB) - Base de datos
+* [Codeigniter 3.1](https://codeigniter.com) - Framework de php
+* [jQuery](https://jquery.com) - Librería de javaScript
+* [Boostrap 4.0](http://getbootstrap.com) - Librería de Frontend
+* [Font Awesome](https://fontawesome.com) - Librería de iconos
